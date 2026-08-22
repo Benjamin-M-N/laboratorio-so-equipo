@@ -9,14 +9,12 @@ contra una concurrente.
 
 ## 1. Integrantes y roles
 
-> COMPLETAR antes de entregar.
-
 | Integrante | Rol | Responsabilidad principal |
 |---|---|---|
-| | Responsable de ambiente | VirtualBox, Ubuntu, instalación de herramientas |
-| | Responsable de concurrencia | `version_concurrente.py`, cola y bloqueos |
-| | Responsable de pruebas y evidencias | Mediciones, capturas, experimento de carrera |
-| | Responsable de integración y documentación | README, informe técnico, estructura final |
+| Benjamín Morales | Responsable de ambiente | VirtualBox, Ubuntu, instalación de herramientas |
+| Kevin Lener | Responsable de concurrencia | `version_concurrente.py`, cola y bloqueos |
+| Máximo Inostroza | Responsable de pruebas y evidencias | Mediciones, capturas, experimento de carrera |
+| Máximo Inostroza, Benjamín Morales, Kevin lener | Responsable de integración y documentación | README, informe técnico, estructura final |
 
 ---
 
@@ -41,38 +39,7 @@ estándar de Python (`pathlib`, `collections`, `queue`, `threading`, `shutil`,
 
 ---
 
-## 3. Estructura de carpetas
-
-```
-laboratorio_so/
-├── README.md
-├── requirements.txt
-├── informe.pdf
-├── src/
-│   ├── comun.py                                  # funciones compartidas
-│   ├── version_secuencial.py                     # sin hilos
-│   ├── version_concurrente.py                    # productor + cola + 3 trabajadores + Lock
-│   ├── version_sincronizacion_experimental.py    # sin Lock (condición de carrera)
-│   ├── generar_entrada.sh                        # regenera data/entrada/
-│   ├── ejecutar_experimento.sh                   # repite el experimento de carrera
-│   └── medir.sh                                  # mide tiempo, memoria y disco
-├── data/
-│   ├── entrada/        # archivos .txt por procesar
-│   ├── procesados/     # archivos ya tratados
-│   ├── errores/        # archivos fallidos + detalle del error
-│   └── reportes/       # reporte por archivo + consolidados
-├── logs/
-│   └── sistema.log     # bitácora de todos los eventos
-└── evidencia/
-    ├── capturas/
-    ├── comandos_ejecutados.txt
-    ├── mediciones.csv
-    └── experimento_carrera.csv
-```
-
----
-
-## 4. Instrucciones paso a paso
+## 3. Instrucciones paso a paso
 
 ```bash
 # 1. Ubicarse en el proyecto
@@ -110,6 +77,37 @@ de cada corrida para comparar ambas versiones con la misma carga.
 | Experimental (sin Lock) | `python3 src/version_sincronizacion_experimental.py` |
 | Medición completa | `bash src/medir.sh secuencial 200` |
 | Experimento de carrera | `bash src/ejecutar_experimento.sh 120 5` |
+
+---
+
+## 5. Estructura de carpetas
+
+```
+laboratorio_so/
+├── README.md
+├── requirements.txt
+├── informe.pdf
+├── src/
+│   ├── comun.py                                  # funciones compartidas
+│   ├── version_secuencial.py                     # sin hilos
+│   ├── version_concurrente.py                    # productor + cola + 3 trabajadores + Lock
+│   ├── version_sincronizacion_experimental.py    # sin Lock (condición de carrera)
+│   ├── generar_entrada.sh                        # regenera data/entrada/
+│   ├── ejecutar_experimento.sh                   # repite el experimento de carrera
+│   └── medir.sh                                  # mide tiempo, memoria y disco
+├── data/
+│   ├── entrada/        # archivos .txt por procesar
+│   ├── procesados/     # archivos ya tratados
+│   ├── errores/        # archivos fallidos + detalle del error
+│   └── reportes/       # reporte por archivo + consolidados
+├── logs/
+│   └── sistema.log     # bitácora de todos los eventos
+└── evidencia/
+    ├── capturas/
+    ├── comandos_ejecutados.txt
+    ├── mediciones.csv
+    └── experimento_carrera.csv
+```
 
 ---
 
