@@ -1,0 +1,6 @@
+Archivo: archivo_vacio.txt
+Lineas: 0
+Palabras: 0
+Caracteres: 0
+Palabra mas frecuente: Sin palabras (0 repeticiones)
+Fecha de proceso: 2026-08-22 18:28:55

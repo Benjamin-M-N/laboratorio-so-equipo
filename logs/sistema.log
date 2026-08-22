@@ -1,0 +1,220 @@
+[2026-08-22 18:08:37] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:08:37] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:08:37] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:08:37] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_001.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_002.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_003.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_004.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_005.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_006.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_007.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_008.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_009.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_010.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_corrupto.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_sin_permisos.txt
+[2026-08-22 18:08:37] [concurrente] Archivo agregado a la cola: archivo_vacio.txt
+[2026-08-22 18:08:37] [concurrente] Productor finalizado. Archivos encolados: 13
+[2026-08-22 18:08:40] [concurrente] Trabajador 1 proceso archivo_003.txt (lineas=6, palabras=48, caracteres=366, frecuente=memoria)
+[2026-08-22 18:08:40] [concurrente] Trabajador 3 proceso archivo_001.txt (lineas=4, palabras=32, caracteres=244, frecuente=proceso)
+[2026-08-22 18:08:40] [concurrente] Trabajador 2 proceso archivo_002.txt (lineas=5, palabras=40, caracteres=260, frecuente=hilo)
+[2026-08-22 18:08:43] [concurrente] Trabajador 2 proceso archivo_006.txt (lineas=4, palabras=32, caracteres=244, frecuente=bloqueo)
+[2026-08-22 18:08:43] [concurrente] Trabajador 1 proceso archivo_004.txt (lineas=7, palabras=56, caracteres=427, frecuente=archivo)
+[2026-08-22 18:08:43] [concurrente] Trabajador 3 proceso archivo_005.txt (lineas=3, palabras=24, caracteres=156, frecuente=cola)
+[2026-08-22 18:08:46] [concurrente] Trabajador 1 proceso archivo_008.txt (lineas=6, palabras=48, caracteres=348, frecuente=kernel)
+[2026-08-22 18:08:46] [concurrente] Trabajador 2 proceso archivo_007.txt (lineas=5, palabras=40, caracteres=290, frecuente=nucleo)
+[2026-08-22 18:08:46] [concurrente] Trabajador 3 proceso archivo_009.txt (lineas=7, palabras=56, caracteres=448, frecuente=semaforo)
+[2026-08-22 18:08:49] [concurrente] Trabajador 1 proceso archivo_010.txt (lineas=3, palabras=24, caracteres=174, frecuente=pagina)
+[2026-08-22 18:08:49] [concurrente] ERROR en archivo_corrupto.txt: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 6: invalid start byte
+[2026-08-22 18:08:49] [concurrente] ERROR en archivo_sin_permisos.txt: PermissionError: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+[2026-08-22 18:08:49] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:08:49] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:08:52] [concurrente] Trabajador 1 proceso archivo_vacio.txt (lineas=0, palabras=0, caracteres=0, frecuente=Sin palabras)
+[2026-08-22 18:08:52] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:08:52] [concurrente] === Fin de ejecucion CONCURRENTE en 15.015 s (ok=11, errores=2) ===
+[2026-08-22 18:09:16] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:09:16] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:09:16] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:09:16] [concurrente] Productor finalizado. Archivos encolados: 0
+[2026-08-22 18:09:16] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:09:16] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:09:16] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:09:16] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:09:16] [concurrente] === Fin de ejecucion CONCURRENTE en 0.003 s (ok=0, errores=0) ===
+[2026-08-22 18:09:37] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:09:37] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:09:37] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:09:37] [concurrente] Productor finalizado. Archivos encolados: 0
+[2026-08-22 18:09:37] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:09:37] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:09:37] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:09:37] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:09:37] [concurrente] === Fin de ejecucion CONCURRENTE en 0.002 s (ok=0, errores=0) ===
+[2026-08-22 18:10:50] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:10:50] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:10:50] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:10:50] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:10:50] [concurrente] Productor finalizado. Archivos encolados: 0
+[2026-08-22 18:10:50] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:10:50] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:10:50] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:10:50] [concurrente] === Fin de ejecucion CONCURRENTE en 0.003 s (ok=0, errores=0) ===
+[2026-08-22 18:12:38] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:12:38] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:12:38] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:12:38] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:12:38] [concurrente] Productor finalizado. Archivos encolados: 0
+[2026-08-22 18:12:38] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:12:38] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:12:38] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:12:38] [concurrente] === Fin de ejecucion CONCURRENTE en 0.002 s (ok=0, errores=0) ===
+[2026-08-22 18:14:33] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:14:33] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:14:33] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:14:33] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:14:33] [concurrente] Productor finalizado. Archivos encolados: 0
+[2026-08-22 18:14:33] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:14:33] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:14:33] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:14:33] [concurrente] === Fin de ejecucion CONCURRENTE en 0.002 s (ok=0, errores=0) ===
+[2026-08-22 18:19:01] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:19:01] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:19:01] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_001.txt
+[2026-08-22 18:19:01] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_002.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_003.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_004.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_005.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_006.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_007.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_008.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_009.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_010.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_corrupto.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_sin_permisos.txt
+[2026-08-22 18:19:01] [concurrente] Archivo agregado a la cola: archivo_vacio.txt
+[2026-08-22 18:19:01] [concurrente] Productor finalizado. Archivos encolados: 13
+[2026-08-22 18:19:04] [concurrente] Trabajador 1 proceso archivo_001.txt (lineas=4, palabras=32, caracteres=244, frecuente=proceso)
+[2026-08-22 18:19:04] [concurrente] Trabajador 2 proceso archivo_002.txt (lineas=5, palabras=40, caracteres=260, frecuente=hilo)
+[2026-08-22 18:19:04] [concurrente] Trabajador 3 proceso archivo_003.txt (lineas=6, palabras=48, caracteres=366, frecuente=memoria)
+[2026-08-22 18:19:07] [concurrente] Trabajador 1 proceso archivo_004.txt (lineas=7, palabras=56, caracteres=427, frecuente=archivo)
+[2026-08-22 18:19:07] [concurrente] Trabajador 3 proceso archivo_006.txt (lineas=4, palabras=32, caracteres=244, frecuente=bloqueo)
+[2026-08-22 18:19:07] [concurrente] Trabajador 2 proceso archivo_005.txt (lineas=3, palabras=24, caracteres=156, frecuente=cola)
+[2026-08-22 18:19:10] [concurrente] Trabajador 1 proceso archivo_007.txt (lineas=5, palabras=40, caracteres=290, frecuente=nucleo)
+[2026-08-22 18:19:10] [concurrente] Trabajador 2 proceso archivo_009.txt (lineas=7, palabras=56, caracteres=448, frecuente=semaforo)
+[2026-08-22 18:19:10] [concurrente] Trabajador 3 proceso archivo_008.txt (lineas=6, palabras=48, caracteres=348, frecuente=kernel)
+[2026-08-22 18:19:13] [concurrente] Trabajador 1 proceso archivo_010.txt (lineas=3, palabras=24, caracteres=174, frecuente=pagina)
+[2026-08-22 18:19:13] [concurrente] ERROR en archivo_corrupto.txt: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 6: invalid start byte
+[2026-08-22 18:19:13] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:19:13] [concurrente] ERROR en archivo_sin_permisos.txt: PermissionError: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+[2026-08-22 18:19:13] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:19:16] [concurrente] Trabajador 1 proceso archivo_vacio.txt (lineas=0, palabras=0, caracteres=0, frecuente=Sin palabras)
+[2026-08-22 18:19:16] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:19:16] [concurrente] === Fin de ejecucion CONCURRENTE en 15.016 s (ok=11, errores=2) ===
+[2026-08-22 18:24:48] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:24:48] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:24:48] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:24:48] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_001.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_002.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_003.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_004.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_005.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_006.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_007.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_008.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_009.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_010.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_corrupto.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_sin_permisos.txt
+[2026-08-22 18:24:48] [concurrente] Archivo agregado a la cola: archivo_vacio.txt
+[2026-08-22 18:24:48] [concurrente] Productor finalizado. Archivos encolados: 13
+[2026-08-22 18:24:51] [concurrente] Trabajador 3 proceso archivo_002.txt (lineas=5, palabras=40, caracteres=260, frecuente=hilo)
+[2026-08-22 18:24:51] [concurrente] Trabajador 1 proceso archivo_001.txt (lineas=4, palabras=32, caracteres=244, frecuente=proceso)
+[2026-08-22 18:24:51] [concurrente] Trabajador 2 proceso archivo_003.txt (lineas=6, palabras=48, caracteres=366, frecuente=memoria)
+[2026-08-22 18:24:54] [concurrente] Trabajador 3 proceso archivo_004.txt (lineas=7, palabras=56, caracteres=427, frecuente=archivo)
+[2026-08-22 18:24:54] [concurrente] Trabajador 1 proceso archivo_005.txt (lineas=3, palabras=24, caracteres=156, frecuente=cola)
+[2026-08-22 18:24:54] [concurrente] Trabajador 2 proceso archivo_006.txt (lineas=4, palabras=32, caracteres=244, frecuente=bloqueo)
+[2026-08-22 18:24:57] [concurrente] Trabajador 3 proceso archivo_007.txt (lineas=5, palabras=40, caracteres=290, frecuente=nucleo)
+[2026-08-22 18:24:57] [concurrente] Trabajador 1 proceso archivo_008.txt (lineas=6, palabras=48, caracteres=348, frecuente=kernel)
+[2026-08-22 18:24:57] [concurrente] Trabajador 2 proceso archivo_009.txt (lineas=7, palabras=56, caracteres=448, frecuente=semaforo)
+[2026-08-22 18:25:00] [concurrente] Trabajador 3 proceso archivo_010.txt (lineas=3, palabras=24, caracteres=174, frecuente=pagina)
+[2026-08-22 18:25:00] [concurrente] ERROR en archivo_corrupto.txt: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 6: invalid start byte
+[2026-08-22 18:25:00] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:25:00] [concurrente] ERROR en archivo_sin_permisos.txt: PermissionError: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+[2026-08-22 18:25:00] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:25:03] [concurrente] Trabajador 3 proceso archivo_vacio.txt (lineas=0, palabras=0, caracteres=0, frecuente=Sin palabras)
+[2026-08-22 18:25:03] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:25:03] [concurrente] === Fin de ejecucion CONCURRENTE en 15.016 s (ok=11, errores=2) ===
+[2026-08-22 18:27:01] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:27:01] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:27:01] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:27:01] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_001.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_002.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_003.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_004.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_005.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_006.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_007.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_008.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_009.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_010.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_corrupto.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_sin_permisos.txt
+[2026-08-22 18:27:01] [concurrente] Archivo agregado a la cola: archivo_vacio.txt
+[2026-08-22 18:27:01] [concurrente] Productor finalizado. Archivos encolados: 13
+[2026-08-22 18:27:04] [concurrente] Trabajador 1 proceso archivo_003.txt (lineas=6, palabras=48, caracteres=366, frecuente=memoria)
+[2026-08-22 18:27:04] [concurrente] Trabajador 3 proceso archivo_001.txt (lineas=4, palabras=32, caracteres=244, frecuente=proceso)
+[2026-08-22 18:27:04] [concurrente] Trabajador 2 proceso archivo_002.txt (lineas=5, palabras=40, caracteres=260, frecuente=hilo)
+[2026-08-22 18:27:07] [concurrente] Trabajador 2 proceso archivo_006.txt (lineas=4, palabras=32, caracteres=244, frecuente=bloqueo)
+[2026-08-22 18:27:07] [concurrente] Trabajador 1 proceso archivo_004.txt (lineas=7, palabras=56, caracteres=427, frecuente=archivo)
+[2026-08-22 18:27:07] [concurrente] Trabajador 3 proceso archivo_005.txt (lineas=3, palabras=24, caracteres=156, frecuente=cola)
+[2026-08-22 18:27:10] [concurrente] Trabajador 2 proceso archivo_007.txt (lineas=5, palabras=40, caracteres=290, frecuente=nucleo)
+[2026-08-22 18:27:10] [concurrente] Trabajador 1 proceso archivo_008.txt (lineas=6, palabras=48, caracteres=348, frecuente=kernel)
+[2026-08-22 18:27:10] [concurrente] Trabajador 3 proceso archivo_009.txt (lineas=7, palabras=56, caracteres=448, frecuente=semaforo)
+[2026-08-22 18:27:13] [concurrente] Trabajador 2 proceso archivo_010.txt (lineas=3, palabras=24, caracteres=174, frecuente=pagina)
+[2026-08-22 18:27:13] [concurrente] ERROR en archivo_corrupto.txt: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 6: invalid start byte
+[2026-08-22 18:27:13] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:27:13] [concurrente] ERROR en archivo_sin_permisos.txt: PermissionError: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+[2026-08-22 18:27:13] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:27:16] [concurrente] Trabajador 2 proceso archivo_vacio.txt (lineas=0, palabras=0, caracteres=0, frecuente=Sin palabras)
+[2026-08-22 18:27:16] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:27:16] [concurrente] === Fin de ejecucion CONCURRENTE en 15.011 s (ok=11, errores=2) ===
+[2026-08-22 18:28:40] [concurrente] === Inicio de ejecucion CONCURRENTE ===
+[2026-08-22 18:28:40] [concurrente] Trabajador 1 iniciado
+[2026-08-22 18:28:40] [concurrente] Trabajador 2 iniciado
+[2026-08-22 18:28:40] [concurrente] Trabajador 3 iniciado
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_001.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_002.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_003.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_004.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_005.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_006.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_007.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_008.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_009.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_010.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_corrupto.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_sin_permisos.txt
+[2026-08-22 18:28:40] [concurrente] Archivo agregado a la cola: archivo_vacio.txt
+[2026-08-22 18:28:40] [concurrente] Productor finalizado. Archivos encolados: 13
+[2026-08-22 18:28:43] [concurrente] Trabajador 2 proceso archivo_003.txt (lineas=6, palabras=48, caracteres=366, frecuente=memoria)
+[2026-08-22 18:28:43] [concurrente] Trabajador 1 proceso archivo_001.txt (lineas=4, palabras=32, caracteres=244, frecuente=proceso)
+[2026-08-22 18:28:43] [concurrente] Trabajador 3 proceso archivo_002.txt (lineas=5, palabras=40, caracteres=260, frecuente=hilo)
+[2026-08-22 18:28:46] [concurrente] Trabajador 1 proceso archivo_005.txt (lineas=3, palabras=24, caracteres=156, frecuente=cola)
+[2026-08-22 18:28:46] [concurrente] Trabajador 3 proceso archivo_006.txt (lineas=4, palabras=32, caracteres=244, frecuente=bloqueo)
+[2026-08-22 18:28:46] [concurrente] Trabajador 2 proceso archivo_004.txt (lineas=7, palabras=56, caracteres=427, frecuente=archivo)
+[2026-08-22 18:28:49] [concurrente] Trabajador 1 proceso archivo_007.txt (lineas=5, palabras=40, caracteres=290, frecuente=nucleo)
+[2026-08-22 18:28:49] [concurrente] Trabajador 3 proceso archivo_008.txt (lineas=6, palabras=48, caracteres=348, frecuente=kernel)
+[2026-08-22 18:28:49] [concurrente] Trabajador 2 proceso archivo_009.txt (lineas=7, palabras=56, caracteres=448, frecuente=semaforo)
+[2026-08-22 18:28:52] [concurrente] Trabajador 1 proceso archivo_010.txt (lineas=3, palabras=24, caracteres=174, frecuente=pagina)
+[2026-08-22 18:28:52] [concurrente] ERROR en archivo_corrupto.txt: UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 6: invalid start byte
+[2026-08-22 18:28:52] [concurrente] Trabajador 3 recibio centinela y termina
+[2026-08-22 18:28:52] [concurrente] ERROR en archivo_sin_permisos.txt: PermissionError: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+[2026-08-22 18:28:52] [concurrente] Trabajador 2 recibio centinela y termina
+[2026-08-22 18:28:55] [concurrente] Trabajador 1 proceso archivo_vacio.txt (lineas=0, palabras=0, caracteres=0, frecuente=Sin palabras)
+[2026-08-22 18:28:55] [concurrente] Trabajador 1 recibio centinela y termina
+[2026-08-22 18:28:55] [concurrente] === Fin de ejecucion CONCURRENTE en 15.021 s (ok=11, errores=2) ===

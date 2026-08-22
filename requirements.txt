@@ -1,0 +1,15 @@
+# Procesador Concurrente de Archivos
+#
+# Este proyecto NO utiliza dependencias externas.
+# Todo se implementa con la biblioteca estandar de Python 3:
+#
+#   pathlib      -> rutas y operaciones sobre el sistema de archivos
+#   collections  -> Counter, para la palabra mas frecuente
+#   queue        -> Queue, cola sincronizada productor/consumidores
+#   threading    -> Thread y Lock, hilos y exclusion mutua
+#   shutil       -> movimiento de archivos entre carpetas
+#   datetime     -> marcas de tiempo de la bitacora
+#   csv          -> registro de mediciones y del experimento de carrera
+#   time         -> medicion de tiempos y pausa del experimento
+#
+# Requisito minimo: Python 3.12 (incluido en Ubuntu Desktop 24.04 LTS)

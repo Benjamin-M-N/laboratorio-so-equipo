@@ -1,0 +1,6 @@
+Archivo: archivo_008.txt
+Lineas: 6
+Palabras: 48
+Caracteres: 348
+Palabra mas frecuente: kernel (18 repeticiones)
+Fecha de proceso: 2026-08-22 18:28:49

@@ -1,0 +1,6 @@
+Archivo: archivo_004.txt
+Lineas: 7
+Palabras: 56
+Caracteres: 427
+Palabra mas frecuente: archivo (21 repeticiones)
+Fecha de proceso: 2026-08-22 18:28:46

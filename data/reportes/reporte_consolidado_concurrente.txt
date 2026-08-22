@@ -1,0 +1,13 @@
+REPORTE CONSOLIDADO - version concurrente
+Fecha: 2026-08-22 18:28:55
+Hilos trabajadores: 3
+----------------------------------------
+Archivos procesados correctamente: 11
+Archivos con error: 2
+Palabras procesadas: 400
+Caracteres procesados: 2957
+----------------------------------------
+Tiempo total de ejecucion: 15.021 s
+VSZ (VmSize): 320512 kB
+RSS actual (VmRSS): 14688 kB
+RSS maximo (VmHWM): 14688 kB

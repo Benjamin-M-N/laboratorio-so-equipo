@@ -1,0 +1,4 @@
+Archivo: archivo_sin_permisos.txt
+Tipo de error: PermissionError
+Detalle: [Errno 13] Permission denied: '/home/vboxuser/laboratorio_so/data/entrada/archivo_sin_permisos.txt'
+Fecha: 2026-08-22 18:28:52

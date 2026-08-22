@@ -1,0 +1,6 @@
+Archivo: archivo_002.txt
+Lineas: 5
+Palabras: 40
+Caracteres: 260
+Palabra mas frecuente: hilo (15 repeticiones)
+Fecha de proceso: 2026-08-22 18:28:43
