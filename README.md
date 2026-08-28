@@ -11,8 +11,8 @@ contra una concurrente.
 
 | Integrante | Rol | Responsabilidad principal |
 |---|---|---|
-| Benjamín Morales | Responsable de ambiente | VirtualBox, Ubuntu, instalación de herramientas |
-| Kevin Lener | Responsable de concurrencia | `version_concurrente.py`, cola y bloqueos |
+| Kevin Lener | Responsable de ambiente | VirtualBox, Ubuntu, instalación de herramientas |
+| Benjamín Morales | Responsable de concurrencia | `version_concurrente.py`, cola y bloqueos |
 | Máximo Inostroza | Responsable de pruebas y evidencias | Mediciones, capturas, experimento de carrera |
 | Máximo Inostroza, Benjamín Morales, Kevin lener | Responsable de integración y documentación | README, informe técnico, estructura final |
 
