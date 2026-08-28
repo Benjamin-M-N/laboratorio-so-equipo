@@ -155,6 +155,3 @@ Para ejecutarlo manualmente una sola vez:
 bash src/generar_entrada.sh 120 no
 python3 src/version_sincronizacion_experimental.py
 ```
-
-## 8. Evidencia
-![Descripción de la imagen](evidencia/Mediciones,capturas, experimento de carrera/01_baseline_sistema.png)
